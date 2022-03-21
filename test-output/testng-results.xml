@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9873" started-at="2022-03-21T19:03:10Z" finished-at="2022-03-21T19:03:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9873" started-at="2022-03-21T19:03:10Z" finished-at="2022-03-21T19:03:20Z">
+      <class name="api3.api_12">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:api3.api_12@343f4d3d]" name="createUser" duration-ms="3758" started-at="2022-03-21T19:03:10Z" finished-at="2022-03-21T19:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22a67b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:api3.api_12@343f4d3d]" name="login" duration-ms="1551" started-at="2022-03-21T19:03:13Z" depends-on-methods="api3.api_12.createUser" finished-at="2022-03-21T19:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:api3.api_12@343f4d3d]" name="edit" duration-ms="1523" started-at="2022-03-21T19:03:15Z" depends-on-methods="api3.api_12.login" finished-at="2022-03-21T19:03:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22a67b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:api3.api_12@343f4d3d]" name="logout" duration-ms="1476" started-at="2022-03-21T19:03:17Z" depends-on-methods="api3.api_12.edit" finished-at="2022-03-21T19:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:api3.api_12@343f4d3d]" name="delete" duration-ms="1521" started-at="2022-03-21T19:03:18Z" depends-on-methods="api3.api_12.logout" finished-at="2022-03-21T19:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22a67b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- api3.api_12 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
